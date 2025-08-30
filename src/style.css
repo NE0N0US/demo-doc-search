@@ -1,0 +1,31 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	color-scheme: light dark;
+}
+
+button{
+	cursor: pointer;
+}
+
+:disabled{
+	cursor: not-allowed !important;
+}
+
+.min-height-screen{
+	min-height: 100vh;
+	min-height: 100dvh;
+	height: 0;
+}
+
+.row, .column{
+	display: flex;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.grow{
+	flex-grow: 1;
+}
